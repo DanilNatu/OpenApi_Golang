@@ -34,5 +34,5 @@ func main() {
 		c.JSON(http.StatusOK, gin.H{"data": users})
 	})
 
-	router.Run(":3007")
+	router.Run(":3000")
 }
